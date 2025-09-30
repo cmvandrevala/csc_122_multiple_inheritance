@@ -9,3 +9,8 @@ TEST_CASE( "#chew_wood" ) {
   Beaver beaver;
   REQUIRE( beaver.chew_wood() == "What did the beaver say to the tree? Nice gnaw-ing you!\n" );
 }
+
+TEST_CASE( "#description" ) {
+  Beaver beaver;
+  REQUIRE( beaver.description() == "I am a fat rodent with a rudder for a tail.\n" );
+}

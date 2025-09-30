@@ -10,3 +10,7 @@ Platypus::Platypus() {
 std::string Platypus::contemplate_existence() {
   return "I am half duck, half beaver. I have become more powerful than you could imagine...\n";
 }
+
+std::string Platypus::description() {
+  return "Ok so imagine that a beaver dressed up like a duck for Halloween...\n";
+}

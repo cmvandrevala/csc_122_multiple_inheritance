@@ -10,3 +10,7 @@ Duck::Duck() {
 std::string Duck::eat_peas() {
   return "You shouldn't feed ducks in the park bread, but they actually love peas. Look up ducks eating peas on YouTube.\n";
 }
+
+std::string Duck::description() {
+  return "I am essentially a buoyant pigeon.\n";
+}

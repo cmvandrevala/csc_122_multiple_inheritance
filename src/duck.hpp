@@ -7,4 +7,5 @@ class Duck
 public:
   Duck();
   std::string eat_peas();
+  std::string description();
 };

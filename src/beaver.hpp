@@ -7,4 +7,5 @@ class Beaver
 public:
   Beaver();
   std::string chew_wood();
+  std::string description();
 };

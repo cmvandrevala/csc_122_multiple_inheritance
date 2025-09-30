@@ -12,3 +12,7 @@ Beaver::Beaver() {
 std::string Beaver::chew_wood() {
   return "What did the beaver say to the tree? Nice gnaw-ing you!\n";
 }
+
+std::string Beaver::description() {
+  return "I am a fat rodent with a rudder for a tail.\n";
+}

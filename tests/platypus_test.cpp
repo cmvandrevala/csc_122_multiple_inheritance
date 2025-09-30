@@ -9,3 +9,8 @@ TEST_CASE( "#contemplate_existence" ) {
   Platypus platypus;
   REQUIRE( platypus.contemplate_existence() == "I am half duck, half beaver. I have become more powerful than you could imagine...\n" );
 }
+
+TEST_CASE( "#description" ) {
+  Platypus platypus;
+  REQUIRE( platypus.description() == "Ok so imagine that a beaver dressed up like a duck for Halloween...\n" );
+}

@@ -10,4 +10,5 @@ class Platypus : public Beaver, public Duck
 public:
   Platypus();
   std::string contemplate_existence();
+  std::string description();
 };
